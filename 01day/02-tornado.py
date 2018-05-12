@@ -9,6 +9,6 @@ class IndexView(tornado.web.RequestHandler):
 
 
 if __name__ == '__main__':
-    app = tornado.web.Application([(r'', IndexView)])
-    app.listen(8888)
+    app = tornado.web.Application([(r'/', IndexView)])
+    app.listen(8000)
     tornado.ioloop.IOLoop.current().start()
