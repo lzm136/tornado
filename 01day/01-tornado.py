@@ -5,6 +5,7 @@ import tornado.ioloop
 
 class IndexHandler(tornado.web.RequestHandler):
     def get(self):
+        self.write('hello wold')
         self.write('lzm')
 
 
