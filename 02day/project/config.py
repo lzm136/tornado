@@ -5,6 +5,6 @@ options = {
     "list": ['good', 'nice']
 }
 
-setting = {
+settings = {
     'debug': True
 }
